@@ -1,0 +1,31 @@
+.button {
+  background-color: #4056A1;
+  font-family: 'Bungee', cursive;
+  cursor: pointer;
+  color:#FFFFFF;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+}
+
+.counter {
+  font-family: 'Bungee', cursive;
+}
+
+.input {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tweet-count {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-text {
+  width: 90vw;
+  border: none;
+  background: none;
+  resize: none;
+  border-bottom: 3px solid black;
+  height: 30px;
+}

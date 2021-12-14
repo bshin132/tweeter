@@ -1,0 +1,32 @@
+.nav {
+  width:100vw;
+  height: 120px;
+  background-color: #4056A1;
+  color:#FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.logo {
+  font-family: 'Bungee', cursive;
+  cursor: pointer;
+  padding-top: 1.5em;
+}
+
+.write {
+  display: flex;
+  flex-direction: column;
+}
+
+.fas {
+  color: red;
+  align-self: center;
+  cursor: pointer;
+}
+
+.new-tweet {
+  padding-top:1.5em;
+}
+
