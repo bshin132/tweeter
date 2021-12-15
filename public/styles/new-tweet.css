@@ -8,6 +8,10 @@
   padding: 7px;
 }
 
+.container {
+  height: 1000px;
+}
+
 .counter {
   font-family: 'Bungee', cursive;
 }
@@ -28,4 +32,5 @@
   resize: none;
   border-bottom: 3px solid black;
   height: 30px;
+  outline: none;
 }
