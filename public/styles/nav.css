@@ -1,16 +1,18 @@
 .nav {
-  width:100vw;
+  width: 100vw;
   height: 120px;
-  background-color: #4056A1;
-  color:#FFFFFF;
+  background-color: #4056a1;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  position: fixed;
+  top: 0;
 }
 
 .logo {
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
   cursor: pointer;
   padding-top: 1.5em;
 }
@@ -20,13 +22,32 @@
   flex-direction: column;
 }
 
-.fas {
+.fa-angle-double-down {
   color: red;
   align-self: center;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .new-tweet {
-  padding-top:1.5em;
+  padding-top: 1.5em;
 }
 
+.fa-angle-double-down {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+  cursor: pointer;
+}
+.fa-angle-double-down:hover {
+  -webkit-animation: mover 7s infinite alternate;
+  animation: mover 7s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}

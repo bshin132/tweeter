@@ -1,32 +1,36 @@
 .button {
-  background-color: #4056A1;
-  font-family: 'Bungee', cursive;
+  background-color: #4056a1;
+  font-family: "Bungee", cursive;
   cursor: pointer;
-  color:#FFFFFF;
+  color: #ffffff;
   border: none;
   cursor: pointer;
   padding: 7px;
+  border-radius: 10px;
 }
 
-.container {
-  height: 1000px;
+.button:hover {
+  -webkit-box-shadow: 8px 6px 0px 1px #5540a1;
+  box-shadow: 4px 4px 0px 1px #5540a1;
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .counter {
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
 }
 
 .input {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .tweet-count {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 #tweet-text {
-  width: 90vw;
+  width: 100%;
   border: none;
   background: none;
   resize: none;

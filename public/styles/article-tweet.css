@@ -1,0 +1,97 @@
+article {
+  border: 3px solid #000000;
+  margin-top: 60px;
+  padding: 0 1.5em;
+}
+
+article:hover {
+  -webkit-box-shadow: 8px 6px 0px 1px #4056a1;
+  box-shadow: 8px 6px 0px 1px #4056a1;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.warning {
+  border: 3px solid #ff0000;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.warning > p,
+i {
+  margin: auto 0;
+  color: #ff0000;
+}
+
+#first-warning {
+  padding-left: 35px;
+}
+
+#second-warning {
+  padding-right: 35px;
+}
+
+.profile {
+  margin-top: 120px;
+}
+
+.avatar {
+  margin-top: 40px;
+}
+
+.profile-name {
+  width: 400px;
+  display: flex;
+  justify-content: revert;
+  align-items: center;
+  text-indent: 10px;
+}
+
+.userid {
+  font-weight: 600;
+  color: #4056a1;
+}
+
+.user-input {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.border {
+  border: 2px solid #000000;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.react-emoji {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80px;
+}
+
+div.react-emoji > i {
+  color: #4056a1;
+}
+
+div.react-emoji > i:hover {
+  color: #ffbe56;
+  cursor: pointer;
+}
+
+.user-emoji {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
